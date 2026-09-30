@@ -6,7 +6,7 @@ print("Welcome to Payup !!")
 
 event_name = input("What was the event called ? ")
 total_price = int(input("What was the total amount that was to be payed? "))
-tax = int(input("What was the service tax (eg. 20 for 20%)? "))
+tax = int(input("What was the service tax (eg. 20 for 20%)? ").strip("%"))
 people = int(input ("How many people were there? "))
 
 
