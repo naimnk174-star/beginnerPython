@@ -24,6 +24,3 @@ elif user_guess == word:
 else: 
     print("Wrong, nice try")
     print(f"the answer was : {word}")
-
-
-print("hello ")
