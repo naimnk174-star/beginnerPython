@@ -2,6 +2,7 @@
 
 total = 0
 
+print("=" *40)
 print("Welcome to Calculator\n")
 Number1 = float(input("Enter the first Number :"))
 Number2 = float(input("Enter the second number : "))
@@ -15,9 +16,8 @@ elif operation == '-':
 elif operation == '*':
     total = Number1 * Number2
 elif operation == '/':
-    if Number1 or Number2 == 0:
+    if Number2 == 0:
         print("This operation is not possible!!")
-        breakpoint
     else :
         total = Number1 / Number2
 else :
